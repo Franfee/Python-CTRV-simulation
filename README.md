@@ -16,5 +16,8 @@ The paper and PPT are in the `docu` folder.
 
 论文和ppt在`docu`文件夹下
 
+# Issues
+The shape of the state space (JA) should be [5X5], numdifftools calculates the shape as [1X5X5].You can use numdifftools==0.6.0, but then you will get a warning about numerical calculations, you can also handle the dimensions yourself.
+
 # result
 <div align=center><img src="results.png" width="50%"></div>
